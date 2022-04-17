@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+  height: 60px;
+  align-items: center;
+  background: black;
+  
+ 
+}
+.header img{
+ margin-left: 20px;
+  height: 40px;
+  align-items: center;
+  right: 20px;
+  top: 40px;
+  align-content: center;
+  margin-top: 10px;
+}
+
+
+#sea{
+width: 700px;
+position: fixed;
+left: 410px;
+
+top: 12.8px;
+
+outline: none;
+height: 38.9px;
+}
+#drop{
+  position: fixed;
+  padding: 10px 11px;
+ color: black;
+ left: 350px;
+ align-items: center;
+ top: 12.8px;
+ outline: none;
+ border-radius: 7px;
+ border-top-right-radius: 0%;
+ border-bottom-right-radius: 0%;
+ background: rgb(235, 234, 234);
+ height: 38.9px;
+ z-index: 1000;
+
+ 
+
+}
+#drop:focus{
+border: 3px solid orange;
+box-shadow: 0 0 5px orange;
+}
+#sea:focus{
+  border: 3px solid orange;
+  box-shadow: 0 0 5px orange;
+  }
+#but{
+  position: fixed;
+  padding: 10px 11px;
+ color: black;
+ left: 1110px;
+ align-items: center;
+ top: 12.8px;
+ outline: none;
+ border-radius: 7px;
+width: 53px;
+ background: rgb(243, 207, 107);
+ height: 39px;
+ z-index: 1000;
+ border-top-left-radius: 0%;
+ border-bottom-left-radius: 0%;
+ outline-style: none;
+
+
+}
+.second{
+  background: rgb(29, 41, 59);
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.second #menu{
+  align-items: center;
+  margin: top 5px; ;
+  width: 30px;
+  height: 30px;
+
+}
+.second ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 7px;
+
+
+
+}
+.second ul li{
+  display: flex;
+  justify-content: space-between;
+
+  padding: 2px 3px;
+margin-right: 20px;
+
+
+}
+.second ul li a{
+  text-decoration: none;
+  color: white;
+}
+.second ul li a:hover{
+  border: 1px solid white;
+  border-radius: 3px;
+  height: 25px;
+}
+
+#prime{
+  height: 40px;
+  width: 360px;
+  margin-top: 0;
+
+}
+#lan{
+  position: fixed;
+  top: 12px;
+  left: 1167px;
+  width: 44px;
+  height: 38.9px;
+  border-radius: 7px;
+  outline: none;
+}
+#sin{
+  position: fixed;
+  top: 0%;
+  left: 1230px;
+  text-decoration: none;
+  color: aliceblue;
+  top: 16px;
+  border: 1px solid white;
+  padding: 6px 6px;
+  border-radius: 3px;
+
+}
+#sin:hover{
+border: 3px solid rgb(122, 228, 231);
+padding: 4px 4px;
+}
+#head{
+  position: fixed;
+  top: 0%;
+  left: 1320px;
+  text-decoration: none;
+  color: aliceblue;
+  top: 16px;
+  border: 1px solid white;
+  padding: 6px 6px;
+  border-radius: 3px;
+
+}
+#head:hover{
+border: 3px solid rgb(122, 228, 231);
+padding: 4px 4px;
+}
+#Cart{
+  position: fixed;
+  top: 0%;
+  left: 1410px;
+  text-decoration: none;
+  color: rgb(252, 221, 49);
+  top: 16px;
+  
+  padding: 6px 6px;
+  
+
+}

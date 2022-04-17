@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-size: cover;
+        }
+        .formbox2{
+            height: 400px;
+           width: 350px;
+          font-size: 1em;
+           position: absolute;
+         top: 100px;
+         align-items: center;
+         left: 580px;
+         text-align: center;
+         border-radius: 40px;
+         background: #edc6a5;
+        }
+        #sin{
+            color: aliceblue;
+        }
+        #bo{
+            text-align: center;
+            width: 200px;
+            padding: 6px 15px;
+            border-radius: 30px;
+            border-style: none;
+            outline: none;
+            height: 40px;
+        }
+        #bo:focus{
+            width: 270px;
+        }
+        #reg{
+            border-style: none;
+            width: 80px;
+            height: 40px;
+            border-radius: 30px;
+        }
+        #reg:hover{
+background: #ffc489;
+        }
+    </style>
+</head>
+<body background="sin.jpg">
+    <form action="" class="formbox2">
+        <h2 id="sin">Sign-Up</h2>
+        <br>
+         <input type="text" id="bo" placeholder="Username" name="use" required><br><br><br>
+         <input type="password" id="bo" placeholder="Password" name="psw" required><br><br><br>
+          <input type="password" id="bo" placeholder="Confirm Password" name="psw2" required><br><br><br>
+          <button type="submit" id="reg"> Sign-Up</button>
+
+
+    </form>
+    
+</body>
+</html>
